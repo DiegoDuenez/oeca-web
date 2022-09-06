@@ -11,10 +11,19 @@
     font-size: var(--fs-titulo-sm);
     color: var(--color-black);
     text-transform: uppercase;
+    z-index: 9999;
 }
 
 .title span{
     font-size: var(--fs-titulo);
     font-family: var(--ff-titulo);
     color: var(--color-green);
+    z-index: 9999;
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .title{
+        text-align: center;
+    }
 }

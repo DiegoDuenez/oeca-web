@@ -1,0 +1,12 @@
+
+
+
+.proyectos{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 10rem;
+    width: 100%;
+    background-image: url('../../resources/img/fondo1.png');
+    background-position: center;
+    background-size: cover;
+}

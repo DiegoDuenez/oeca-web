@@ -30,7 +30,9 @@
 
     <?php include 'templates/layouts/nosotros.php' ?>
 
+    <?php include 'templates/layouts/proyectos.php' ?>
 
+    
     <?php include 'templates/scripts/scripts.php' ?>
     
 </body>

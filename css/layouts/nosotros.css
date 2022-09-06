@@ -13,16 +13,29 @@
     flex-direction: column;
     padding: 5rem 10rem;
     width: 100%;
-    height: 100%;
     background-image: url('../../resources/img/fondo1.png');
     background-position: center;
     background-size: cover;
+    position: relative;
 }
+
+    @media screen and (min-width: 641px) and (max-width: 700px) {
+        .nosotros{
+            padding: 5rem 5rem;
+        }
+    }
+
+    @media screen and (min-width: 300px) and (max-width: 640px) {
+        .nosotros{
+            padding: 5rem 3rem;
+        }
+    }
 
 .nosotros__slider-container{
     display: flex;
     width: 100%;
     margin-top: 5rem;
+    z-index: 1;
 }
 
 .nosotros__slider{
@@ -66,3 +79,134 @@
 .nosotros__slider-dot--active{
     background-color: var(--color-green);
 }
+
+.nosotros__card-row{
+    margin-top: 5rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+    @media screen and (min-width: 300px) and (max-width:1410px) {
+        .nosotros__card-row{
+            justify-content: center;
+        }
+    }
+    @media screen and (min-width: 300px) and (max-width: 640px) {
+        .nosotros__card-row{
+            justify-content: center;
+        }
+    }
+
+.nosotros__card-container{
+    display: flex;
+    width: max-content;
+    position: relative;
+}
+
+.nosotros__card{
+    display: flex;
+    background-color: var(--color-white);
+    border-radius: 2rem;
+    padding: 7rem 1rem;
+    min-width: 20rem;
+    min-height: 30rem;
+    flex-direction: column;
+    max-width: 20rem;
+    max-height: max-content;
+    gap: 1rem;
+    box-shadow:  0 30px 40px -10px rgba(0 , 0 , 0 , 0.35);
+}
+    @media screen and (min-width: 300px) and (max-width: 640px) {
+        .nosotros__card{
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+
+.nosotros__card-text{
+    font-family: var(--ff-texto);
+    font-size: var(--fs-texto);
+    color: var(--color-black);
+    width: 100%;
+    text-align: justify;
+    line-height: 1.5rem;
+    height: 100%;
+}
+
+.nosotros__card-img-top{
+    position: absolute;
+    left: -1.65rem;
+}
+
+.nosotros__card-img-bottom{
+    position: absolute;
+    bottom: -3rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: var(--color-green);
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+    font-size: 3rem;
+
+    background: rgb(28,193,126);
+background: linear-gradient(180deg, rgba(28,193,126,1) 40%, rgba(11,162,74,1) 70%);
+}
+
+
+.nosotros__image{
+    position: absolute;
+    right: 0%;
+    width: 45rem;
+    top: 2rem;
+    z-index: 0;
+}
+
+    @media screen and (min-width: 300px) and (max-width: 1400px) {
+        .nosotros__image{
+            top: 20rem;
+        }
+    }
+    @media screen and (min-width: 641px) and (max-width: 990px) {
+        .nosotros__image{
+            width: 35rem;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+        }
+    }
+    @media screen and (min-width: 300px) and (max-width: 640px) {
+        .nosotros__image{
+           display: none;
+        }
+    }
+
+
+.nosotros__card ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: 1.5rem;
+    gap: 1rem;
+}
+
+.nosotros__card ul li{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nosotros__card ul li i{
+    font-size: 0.5rem;
+    color: var(--color-green);
+}
+
