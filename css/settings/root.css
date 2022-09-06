@@ -7,3 +7,125 @@
 |   For variables are put inside the :root pseudo-class.
 |
 */
+
+
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   Root
+|   ---------------------------------------------------------------------------------
+|   
+*/
+
+:root{
+    --color-dark: #000000;
+    --color-black: #323232;
+    --color-green: #0ba24a;
+    --color-light: #f1f1f1;
+    --color-white : #ffffff;
+    --fs-titulo-lg: 5rem;
+    --fs-titulo: 4rem;
+    --fs-texto: 1rem;
+    --ff-titulo: Exo2Bold;
+    --ff-texto: Exo2Regular;
+}
+
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   All
+|   ---------------------------------------------------------------------------------
+|   
+|   Add margin, padding in 0 with box-sizing in border-box.
+|
+*/
+* {
+    margin: 0;
+    padding: 0;
+        -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+        -webkit-padding-start: 0px;
+}
+
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   Html & body
+|   ---------------------------------------------------------------------------------
+|   
+|   Add margin, padding in 0 with width and height in 100%, with this you can use height of 100% in your containers.
+|
+*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   Html (Not obligatory)
+|   ---------------------------------------------------------------------------------
+|   
+|   Scroll smooth & friendly :)
+|
+*/
+html{
+    /* scroll-behavior: smooth; */
+}
+
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   Body
+|   ---------------------------------------------------------------------------------
+|   
+|   Body with position relative and overflow-x hidden for responsive mode and does not allow horizontal side scrolling.
+|
+*/
+body{
+    position: relative;
+    overflow-x: hidden !important;
+    
+}
+
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   Body > div
+|   ---------------------------------------------------------------------------------
+|   
+|   All div tags inside the body do not allow horizontal side scrolling.
+|
+*/
+body>div {
+    overflow: hidden !important;
+}
+
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   Body > section
+|   ---------------------------------------------------------------------------------
+|   
+|   All section tags inside the body do not allow horizontal side scrolling.
+|
+*/
+body>section {
+    overflow: hidden !important;
+}
+
+.swal2-popup {
+    font-family: MontserratMedium !important;
+}

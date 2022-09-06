@@ -1,0 +1,66 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Components (Sidebar)
+|   ---------------------------------------------------------------------------------
+|   
+|   In this folder you create all components (one file per component) that you will need like navs, buttons, etc...
+|   This components don't belong to a specific page, view, container, etc... of your project,
+|   are used globally. 
+|
+*/
+
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 7rem;
+    background-color: var(--color-green);
+    justify-content: space-between;
+    padding: 4rem 0 4rem 0;
+    position: absolute;
+    z-index: 9999;
+}
+
+.sidebar__menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: fit-content;
+   
+}
+
+.sidebar__menu button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-family: var(--ff-texto);
+    color: var(--color-white);
+    gap: 0.5rem;
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.sidebar__menu i{
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.sidebar__social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: var(--color-white);
+}
+
+.sidebar__social-media a{
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
