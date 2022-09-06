@@ -28,6 +28,9 @@
 
     <?php include 'templates/components/banner.php' ?>
 
+    <?php include 'templates/layouts/nosotros.php' ?>
+
+
     <?php include 'templates/scripts/scripts.php' ?>
     
 </body>

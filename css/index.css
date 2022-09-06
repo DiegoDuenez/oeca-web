@@ -35,3 +35,12 @@
 */
 @import url('components/sidebar.css');
 @import url('components/banner.css');
+@import url('components/title.css');
+
+
+/*
+*   ---------------------------------------------------------------------------------
+*   @Layouts
+*   ---------------------------------------------------------------------------------
+*/
+@import url('layouts/nosotros.css');
