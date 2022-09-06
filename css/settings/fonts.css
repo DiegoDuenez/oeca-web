@@ -1,0 +1,20 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Settings (Fonts)
+|   ---------------------------------------------------------------------------------
+|   
+|   Here you can put all your own font families using the @font-face rule.
+|
+*/
+
+
+
+@font-face {
+    font-family: 'Exo2Bold';
+    src: url('../../fonts/Exo2-Bold.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'Exo2Regular';
+    src: url('../../fonts/Exo2-Regular.ttf') format('woff');
+}

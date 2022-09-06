@@ -1,0 +1,28 @@
+/*
+|   css-scaffold 2022 @DiegoDuenez
+|   ---------------------------
+|   @Index
+|   ---------------------------
+|   
+|   In this file you run all the resources of your project using the @import url('path/of/css/file') rule.
+|
+*/
+
+
+
+/*
+*   ---------------------------------------------------------------------------------
+*   @Animations
+*   ---------------------------------------------------------------------------------
+*/
+@import url('animations/animate.css');
+
+
+/*
+*   ---------------------------------------------------------------------------------
+*   @Settings
+*   ---------------------------------------------------------------------------------
+*/
+@import url('settings/normalize.css');
+@import url('settings/fonts.css');
+@import url('settings/root.css');
