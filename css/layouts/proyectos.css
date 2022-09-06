@@ -9,4 +9,58 @@
     background-image: url('../../resources/img/fondo1.png');
     background-position: center;
     background-size: cover;
+    gap: 3rem;
+}
+
+.proyectos__header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.proyectos .title{
+    width: 50%;
+}
+
+.proyectos__descripcion{
+    font-family: var(--ff-texto);
+    font-size: var(--fs-texto);
+    color: var(--color-black);
+    width: 50%;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.proyectos__items{
+    display: flex;
+    background-color: var(--color-white);
+    border-radius: 5rem;
+    width: 100%;
+    height: 7rem;
+    padding: 0.5rem 2rem;
+    gap: 2rem;
+}
+
+.proyectos__item{
+    display: flex;
+    width: max-content;
+    gap: 0.5rem;
+}
+
+.proyectos__item-icon{
+    width: max-content;
+}
+.proyectos__item-icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.proyectos__item-text{
+    display: flex;
+    font-family: var(--ff-titulo);
+    color: var(--color-black);
+    font-size: 1.7rem;
+    align-items: center;
 }
