@@ -1,4 +1,4 @@
-<div class="nosotros">
+<div class="nosotros" id="nosotros">
 
     <div class="nosotros__header">
         <h2 class="title">CONOCE <br><span>NUESTRA HISTORIA</span></h2>

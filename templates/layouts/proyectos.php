@@ -1,4 +1,4 @@
-<div class="proyectos">
+<div class="proyectos" id="proyectos">
     
     <div class="proyectos__header">
         <div class="proyectos__title">
@@ -17,7 +17,7 @@
     <div class="proyectos__items">
         <div class="proyectos__item">
             <div class="proyectos__item-icon">
-                <img src="resources/img/diseño-icono.png" alt="">
+                <img src="resources/img/diseño-icono.png" alt="Diseño">
             </div>
             <div class="proyectos__item-text">
                 DISEÑO
@@ -26,7 +26,7 @@
 
         <div class="proyectos__item">
             <div class="proyectos__item-icon">
-                <img src="resources/img/integracion.png" alt="">
+                <img src="resources/img/integracion.png" alt="Integración">
             </div>
             <div class="proyectos__item-text">
                 INTEGRACIÓN
@@ -35,7 +35,7 @@
 
         <div class="proyectos__item">
             <div class="proyectos__item-icon">
-                <img src="resources/img/puesta.png" alt="">
+                <img src="resources/img/puesta.png" alt="Puesta en marcha">
             </div>
             <div class="proyectos__item-text">
                 PUESTA EN MARCA
@@ -44,7 +44,7 @@
 
         <div class="proyectos__item">
             <div class="proyectos__item-icon">
-                <img src="resources/img/asesoria.png" alt="">
+                <img src="resources/img/asesoria.png" alt="Asesoría y financiamiento">
             </div>
             <div class="proyectos__item-text">
                 ASESORÍA <br> Y FINANCIAMIENTO
@@ -101,4 +101,55 @@
     </div>
     
 
+</div>
+
+
+<div class="proyectos proyectos--pt-0" id="proyectos_residenciales">
+    
+    <div class="proyectos__header">
+        <div class="proyectos__title proyectos__title--lg">
+            <h2 class="title">PROYECTOS <br><span>RESIDENCIALES, COMERCIALES <br> E INDUSTRIALES</span></h2>
+        </div>
+    </div>
+
+    <img class="proyectos__image" src="resources/img/casa.png" alt="Casa con paneles solares">
+
+    <div class="proyectos__lista">
+
+        <div class="proyectos__lista-item">
+            <div class="proyectos__lista-item-icon">
+                 <img src="resources/img/dimensionamiento.png" alt="Dimensionamiento">
+            </div>
+            <div class="proyectos__lista-item-text">
+                 Dimensionamiento de sistemas fotovoltaicos conforme a las necesidades del cliente (Hogar, negocio o industria).
+            </div>
+        </div>
+
+        <div class="proyectos__lista-item">
+            <div class="proyectos__lista-item-icon">
+                 <img src="resources/img/implementacion.png" alt="Implementación">
+            </div>
+            <div class="proyectos__lista-item-text">
+                 Implementación y puesta en marcha.
+            </div>
+        </div>
+
+        <div class="proyectos__lista-item">
+            <div class="proyectos__lista-item-icon">
+                 <img src="resources/img/mantenimiento.png" alt="Mantenimiento">
+            </div>
+            <div class="proyectos__lista-item-text">
+                Mantenimiento del sistema fotovoltaico.
+            </div>
+        </div>
+
+        <div class="proyectos__lista-item">
+            <div class="proyectos__lista-item-icon">
+                 <img src="resources/img/monitoreo.png" alt="Monitoreo">
+            </div>
+            <div class="proyectos__lista-item-text">
+                Monitoreo del sistema fotovoltaico en tiempo real (App para celular).
+            </div>
+        </div>
+    </div>
 </div>
