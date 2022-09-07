@@ -1,0 +1,19 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Components (Button)
+|   ---------------------------------------------------------------------------------
+|
+*/
+
+.button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: rgb(28,193,126);
+    background: linear-gradient(180deg, rgba(28,193,126,1) 40%, rgba(11,162,74,1) 70%);
+    padding: 1rem 3rem;
+    width: max-content;
+    font-family: var(--ff-titulo);
+    color: var(--color-white);
+    align-self: center;
+}

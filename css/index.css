@@ -38,6 +38,8 @@
 @import url('components/sidebar.css');
 @import url('components/banner.css');
 @import url('components/title.css');
+@import url('components/button.css');
+
 
 
 /*
@@ -47,3 +49,5 @@
 */
 @import url('layouts/nosotros.css');
 @import url('layouts/proyectos.css');
+@import url('layouts/servicios.css');
+

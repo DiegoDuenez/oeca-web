@@ -32,6 +32,8 @@
 
     <?php include 'templates/layouts/proyectos.php' ?>
 
+    <?php include 'templates/layouts/servicios.php' ?>
+
     
     <?php include 'templates/scripts/scripts.php' ?>
     
