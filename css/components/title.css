@@ -12,6 +12,7 @@
     color: var(--color-black);
     text-transform: uppercase;
     z-index: 9999;
+    word-wrap: break-word;
 }
 
 .title span{

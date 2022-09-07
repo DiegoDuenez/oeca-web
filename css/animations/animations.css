@@ -33,7 +33,7 @@
 }
 
 .up:hover{
-    transform: translateY(-20px) !important;
+    transform: translateY(-7px) !important;
 }
 
 .down:hover{

@@ -63,4 +63,5 @@
     color: var(--color-white);
     text-decoration: none;
     font-size: 1.5rem;
+    transition: 400ms;
 }

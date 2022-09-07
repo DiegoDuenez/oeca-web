@@ -8,9 +8,9 @@
     </div>
 
     <div class="sidebar__social-media">
-        <a href="#" title="Facebook"><i class="fa-brands fa-facebook"></i></a> 
-        <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a> 
-        <a href="#" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a> 
-        <a href="#" title="Correo"><i class="fa-regular fa-envelope"></i></a> 
+        <a href="#" title="Facebook" class="up"><i class="fa-brands fa-facebook"></i></a> 
+        <a href="#" title="Instagram" class="up"><i class="fa-brands fa-instagram"></i></a> 
+        <a href="#" title="WhatsApp" class="up"><i class="fa-brands fa-whatsapp"></i></a> 
+        <a href="#" title="Correo" class="up"><i class="fa-regular fa-envelope"></i></a> 
     </div>
 </div>
