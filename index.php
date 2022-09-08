@@ -18,26 +18,40 @@
      <link rel="stylesheet" href="libs/aos/dist/aos.css">
     <!--====== GLIDER CSS ======-->
     <link rel="stylesheet" href="libs/glider/glider.min.css">
-    <!--====== MAINCSS ======-->
+    <!--====== MAIN CSS ======-->
     <link rel="stylesheet" href="css/index.css">
     <title>OECA - OPTIMIZACIÓN ENERGÉTICA Y CULTURA AMBIENTAL</title>
 </head>
 <body>
 
+    <!--====== SIDEBAR START ======-->
     <?php include 'templates/components/sidebar.php' ?>
+    <!--====== SIDEBAR END ======-->
 
+    <!--====== BANNER START ======-->
     <?php include 'templates/components/banner.php' ?>
+    <!--====== BANNER END ======-->
 
+    <!--====== NOSOTROS START ======-->
     <?php include 'templates/layouts/nosotros.php' ?>
+    <!--====== NOSOTROS END ======-->
 
+    <!--====== PROYECTOS START ======-->
     <?php include 'templates/layouts/proyectos.php' ?>
+    <!--====== PROYECTOS END ======-->
 
+    <!--====== SERVICIOS START ======-->
     <?php include 'templates/layouts/servicios.php' ?>
+    <!--====== SERVICIOS END ======-->
 
+    <!--====== CONTACTO START ======-->
     <?php include 'templates/layouts/contacto.php' ?>
-
+    <!--====== CONTACTO END ======-->
     
+    <!--====== SCRIPTS START ======-->
     <?php include 'templates/scripts/scripts.php' ?>
+    <!--====== SCRIPTS END ======-->
+
     
 </body>
 </html>
