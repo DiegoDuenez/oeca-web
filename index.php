@@ -28,6 +28,10 @@
     <?php include 'templates/components/sidebar.php' ?>
     <!--====== SIDEBAR END ======-->
 
+    <!--====== MENU START ======-->
+    <?php include 'templates/components/menu.php' ?>
+    <!--====== MENU END ======-->
+
     <!--====== BANNER START ======-->
     <?php include 'templates/components/banner.php' ?>
     <!--====== BANNER END ======-->

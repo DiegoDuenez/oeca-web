@@ -69,3 +69,61 @@ const animateCSS = (element, animation, prefix = 'animate__') =>
 
     node.addEventListener('animationend', handleAnimationEnd, {once: true});
   });
+
+
+
+$('.sidebar__menu button').click(function(){
+
+    if($(this).text().includes('MENÚ')){
+        $(this).html(`
+            <i class="fa-regular fa-circle-xmark" ></i>
+            CERRAR
+        `)
+        $(this).css('background-color', 'white').css('color', 'var(--color-green)').css('height', '7rem')
+        $('.sidebar').addClass('sidebar--open')
+        $('.sidebar__social-media').hide()
+        $('.sidebar').addClass('sidebar--fix')
+        $('.sidebar').addClass('sidebar--transparent')
+        $('body').css('overflow','hidden')
+
+
+    }
+    else{
+        $(this).html(`
+            <i class="fa-solid fa-bars"></i>
+            MENÚ
+        `)
+
+        $('.sidebar').removeClass('sidebar--open')
+        $('.sidebar__social-media').show()
+        $(this).css('background-color', 'transparent').css('color', 'white').css('height', 'fit-content')
+        $('.sidebar').removeClass('sidebar--fix')
+        $('.sidebar').removeClass('sidebar--transparent')
+        $('body').css('overflow','auto')
+
+    }
+    
+})
+
+
+
+$('.menu__link').click(function(){
+
+    if( $('.menu').hasClass('open--right')){
+        $('.menu').removeClass('open--right')
+
+        $('.sidebar').removeClass('sidebar--open')
+        $('.sidebar__menu button').html(`
+        <i class="fa-solid fa-bars"></i>
+            MENÚ
+        `)
+
+        $('.sidebar').removeClass('sidebar--open')
+        $('.sidebar__social-media').show()
+        $('.sidebar__menu button').css('background-color', 'transparent').css('color', 'white').css('height', 'fit-content')
+        $('.sidebar').removeClass('sidebar--fix')
+        $('.sidebar').removeClass('sidebar--transparent')
+
+    }
+  
+})

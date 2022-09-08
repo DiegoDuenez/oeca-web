@@ -23,13 +23,13 @@
     width: 60%;
     padding: 5rem 10rem;
     gap: 2rem;
-    z-index: 9999;
+    z-index: 999;
 
 }
     @media screen and (min-width: 300px) and (max-width: 890px) {
         .contacto__formulario{
             width: 100%;
-            padding: 2rem 5rem;
+            padding: 2rem 2rem;
         }
     }
 

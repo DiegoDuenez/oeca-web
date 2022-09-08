@@ -1,9 +1,10 @@
-<div class="contacto">
+<div class="contacto" id="contacto">
 
     <div class="contacto__formulario">
         <h2 class="title title--white">PONTE EN <br><span>CONTACTO</span></h2>
 
         <img src="resources/img/contacto-fondo.png" alt="Contacto" class="contacto__image">
+        
         <form class="contacto__form">
             <div class="contacto__input-group">
                 <label for="nombre" class="contacto__label">NOMBRE Y APELLIDO</label>

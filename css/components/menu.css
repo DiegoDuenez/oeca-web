@@ -1,0 +1,299 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Components (Menu)
+|   ---------------------------------------------------------------------------------
+|
+*/
+
+
+.menu{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 10rem 5rem 10rem;
+    background-color: var(--color-green);
+}
+
+    @media screen and (min-width: 300px) and (max-width: 1220px) {
+        .menu{
+            flex-direction: column;
+            align-items: flex-start;
+            padding-top: 3rem;
+            gap: 2rem;
+        }
+    }
+
+    @media screen and (min-width: 1001px) and (max-width: 1070px) {
+        .menu{
+            padding: 0 0 5rem 10rem;
+
+        }
+    }
+
+    @media screen and (min-width: 401px) and (max-width: 1000px) {
+        .menu{
+            padding: 7rem 0 5rem 5rem;
+
+        }
+        
+    }
+
+    @media screen and (min-width: 300px) and (max-width: 400px) {
+        .menu{
+            padding: 7rem 1rem 5rem 1rem;
+
+        }
+        
+    }
+.menu__image{
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    width: 35rem;
+}
+    @media screen and (min-width: 300px) and (max-width: 1220px) {
+        .menu__image{
+            display: none;
+        }
+    }
+
+.menu__links{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 2rem;
+    height: fit-content;
+    margin-top: 5rem;
+}
+
+    @media screen and (min-width: 300px) and (max-width: 1220px) {
+        .menu__links{
+            width: 100%;
+        }
+    }
+
+.menu__link{
+    font-size: 6rem;
+    color: rgba(255, 255, 255, 0.618);
+    font-family: var(--ff-texto);
+    text-decoration: none;
+    transition: 400ms;
+}
+
+    @media screen and (min-width: 300px) and (max-width: 1000px) {
+        .menu__link{
+            font-size: 3rem;
+        }
+        
+    }
+
+.menu__link:hover{
+    color: var(--color-white);
+
+}
+.menu__link--active{
+    color: var(--color-white);
+}
+
+
+.menu__informacion{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: flex-end;
+    width: 50%;
+
+}
+    @media screen and (min-width: 300px) and (max-width: 1220px) {
+        .menu__informacion{
+            width: 100%;
+        }
+    }
+
+.menu__dato{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.menu__dato-icon{
+    color: var(--color-white);
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.menu__dato-text a{
+    color: var(--color-white);
+    text-decoration: none;
+    font-family: var(--ff-texto);
+    display: flex;
+    align-items: center;
+}
+
+
+/*
+|  ----------------------------------------------------------------------------------
+|   Menu direction
+|  ----------------------------------------------------------------------------------
+|   
+|   These classes are used for the direction when you open your menu.
+|  
+|   
+*/
+.menu--to-left{
+    transition: left .5s;
+    left: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.menu--to-right{
+    transition: right .5s;
+    right: 100%;
+}
+
+.menu--to-top{
+    transition: top .5s;
+    top: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.menu--to-bottom{
+    transition: bottom .5s;
+    bottom: 100%;
+}
+
+
+
+/*
+|  ----------------------------------------------------------------------------------
+|   Open in 0%
+|  ----------------------------------------------------------------------------------
+|   
+|   These classes are used when your menu is preferably a FULLSCREEN MENU but you
+|   can use it anytime.
+|   
+*/
+.open--left{
+    left:0;
+}
+
+.open--right{
+    right:0;
+}
+
+.open--top{
+    top:0;
+}
+
+.open--bottom{
+    bottom:0;
+}
+
+
+
+/*
+|  ----------------------------------------------------------------------------------
+|   Open in 50%
+|  ----------------------------------------------------------------------------------
+|   
+|   These classes are used when your menu is a NON-FULLSCREEN sidebar.
+|   
+*/
+.open--right-50{
+    right:50%;
+}
+
+.open--left-50{
+    left:50%;
+}
+
+.open--top-50{
+    top:50%;
+}
+
+.open--bottom-50{
+    bottom:50%;
+}
+
+
+
+/*
+|  ----------------------------------------------------------------------------------
+|   Menu size
+|  ----------------------------------------------------------------------------------
+|   
+|   These classes are used to size your menu.
+|   
+|   sm -> Small -> 30%
+|   md -> Medium -> 50%
+|   lg -> Large -> 100% (FOR FULLSCREEN MENUS)
+|
+*/
+.menu--sm{
+    width: 30%;
+}
+
+.menu--md{
+    width: 50%;
+}
+
+.menu--lg{
+    width: 100%;
+}
+   
+
+
+/*
+|  ----------------------------------------------------------------------------------
+|   Menu speed
+|  ----------------------------------------------------------------------------------
+|   
+|   These classes are used to change the speed when you menu is open.
+|   
+|   slow -> 2 seconds
+|   normal -> .5 seconds
+|   fast -> .2 seconds
+|
+*/
+.menu--speed--slow{
+    transition-duration: 2s;
+}  
+
+.menu--speed--normal{
+    transition-duration: .5s;
+}   
+
+.menu--speed--fast{
+    transition-duration: .2s;
+}   
+
+
+
+/*
+|  ----------------------------------------------------------------------------------
+|   Cursor
+|  ----------------------------------------------------------------------------------
+|   
+|   These classes are used to cursor item.
+|   
+*/
+.menu-cursor{
+    pointer-events: none;
+    position: fixed;
+    position: absolute;
+    font-size: 2rem;
+}
+
+.menu-cursor img{
+    width: 2rem;
+}
