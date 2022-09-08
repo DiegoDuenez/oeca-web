@@ -6,16 +6,18 @@
         </div>
 
         <div class="proyectos__descripcion">
-            <span style="color: var(--color-green); font-weight: bold;">OECA</span> Lorem ipsum dolor sit,
-            amet consectetur adipisicing elit. Eligendi nobis possimus officia,
-            minima eum maxime? Repudiandae, cumque odit? Quae laudantium sit quidem ea alias 
-            magnam quos adipisci nostrum error dignissimos.
+            <span style="color: var(--color-green); font-weight: bold;">OECA</span>
+            es una empresa con personal especializado en el ramo
+            de proyectos solares a gran escala, desde la etapa de estudio
+            de viabilidad, ingeniería de proyecto, obra civil, obra eléctrica,
+            "commissioning" y puesta en marcha, hasta una amplia gama
+            de actividades en operación y mantenimiento (O&M).
         </div>
 
     </div>
 
     <div class="proyectos__items">
-        <div class="proyectos__item">
+        <div class="proyectos__item" data-aos="zoom-in">
             <div class="proyectos__item-icon">
                 <img src="resources/img/diseño-icono.png" alt="Diseño">
             </div>
@@ -24,7 +26,7 @@
             </div>
         </div>
 
-        <div class="proyectos__item">
+        <div class="proyectos__item" data-aos="zoom-in">
             <div class="proyectos__item-icon">
                 <img src="resources/img/integracion.png" alt="Integración">
             </div>
@@ -33,7 +35,7 @@
             </div>
         </div>
 
-        <div class="proyectos__item">
+        <div class="proyectos__item" data-aos="zoom-in">
             <div class="proyectos__item-icon">
                 <img src="resources/img/puesta.png" alt="Puesta en marcha">
             </div>
@@ -42,7 +44,7 @@
             </div>
         </div>
 
-        <div class="proyectos__item">
+        <div class="proyectos__item" data-aos="zoom-in">
             <div class="proyectos__item-icon">
                 <img src="resources/img/asesoria.png" alt="Asesoría y financiamiento">
             </div>
@@ -57,7 +59,7 @@
 
         <div class="proyectos__card-row">
 
-            <div class="proyectos__card">
+            <div class="proyectos__card" >
                 <div class="proyectos__card-body">
                     <img src="resources/img/1.png" alt="Industria agrícola">
                     <div class="proyectos__card-mask">
@@ -116,7 +118,7 @@
 
     <div class="proyectos__lista">
 
-        <div class="proyectos__lista-item">
+        <div class="proyectos__lista-item" data-aos="fade-right">
             <div class="proyectos__lista-item-icon">
                  <img src="resources/img/dimensionamiento.png" alt="Dimensionamiento">
             </div>
@@ -125,7 +127,7 @@
             </div>
         </div>
 
-        <div class="proyectos__lista-item">
+        <div class="proyectos__lista-item" data-aos="fade-right">
             <div class="proyectos__lista-item-icon">
                  <img src="resources/img/implementacion.png" alt="Implementación">
             </div>
@@ -134,7 +136,7 @@
             </div>
         </div>
 
-        <div class="proyectos__lista-item">
+        <div class="proyectos__lista-item" data-aos="fade-right">
             <div class="proyectos__lista-item-icon">
                  <img src="resources/img/mantenimiento.png" alt="Mantenimiento">
             </div>
@@ -143,7 +145,7 @@
             </div>
         </div>
 
-        <div class="proyectos__lista-item">
+        <div class="proyectos__lista-item" data-aos="fade-right">
             <div class="proyectos__lista-item-icon">
                  <img src="resources/img/monitoreo.png" alt="Monitoreo">
             </div>

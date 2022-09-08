@@ -16,7 +16,7 @@
 
                 <div class="servicios__listas-container">
 
-                    <div class="servicios__lista-item">
+                    <div class="servicios__lista-item" data-aos="fade-right">
                         <div class="servicios__lista-header">
                             <img src="resources/img/servicios.png" alt="Servicios" class="servicios__img">
                             <h3 class="servicios__subtitle">EXPERIENCIA EN PV</h3>
@@ -33,7 +33,7 @@
 
                     </div>
 
-                    <div class="servicios__lista-item">
+                    <div class="servicios__lista-item" data-aos="fade-left">
                         <div class="servicios__lista-header">
                             <img src="resources/img/servicios.png" alt="Servicios" class="servicios__img">
                             <h3 class="servicios__subtitle">MANTENIMIENTOS <br> PREVENTIVOS Y CORRECTIVOS</h3>
@@ -53,7 +53,7 @@
                 
                 <div class="servicios__listas-container">
 
-                    <div class="servicios__lista-item">
+                    <div class="servicios__lista-item" data-aos="fade-right">
                         <div class="servicios__lista-header">
                             <img src="resources/img/servicios.png" alt="Servicios" class="servicios__img">
                             <h3 class="servicios__subtitle">STRING/COMBINER BOX</h3>
@@ -68,7 +68,7 @@
 
                     </div>
 
-                    <div class="servicios__lista-item">
+                    <div class="servicios__lista-item" data-aos="fade-left">
                         <div class="servicios__lista-header">
                             <img src="resources/img/servicios.png" alt="Servicios" class="servicios__img">
                             <h3 class="servicios__subtitle">LV/DC Cableado Solar <br> y Baja Tensión</h3>
@@ -90,7 +90,7 @@
 
                 <div class="servicios__listas-container">
 
-                    <div class="servicios__lista-item">
+                    <div class="servicios__lista-item" data-aos="fade-right">
                         <div class="servicios__lista-header">
                             <img src="resources/img/servicios.png" alt="Servicios" class="servicios__img">
                             <h3 class="servicios__subtitle">AC/DC Inversores <br> Centrales y MicroInversor</h3>
@@ -107,7 +107,7 @@
 
                     </div>
 
-                    <div class="servicios__lista-item">
+                    <div class="servicios__lista-item" data-aos="fade-left">
                         <div class="servicios__lista-header">
                             <img src="resources/img/servicios.png" alt="Servicios" class="servicios__img">
                             <h3 class="servicios__subtitle">Transformadores MV</h3>
@@ -128,7 +128,7 @@
 
                     <div class="servicios__listas-container">
 
-                        <div class="servicios__lista-item">
+                        <div class="servicios__lista-item" data-aos="fade-right">
                             <div class="servicios__lista-header">
                                 <img src="resources/img/servicios.png" alt="Servicios" class="servicios__img">
                                 <h3 class="servicios__subtitle">HV/AC Cableado <br> Switchgear / RMU</h3>
@@ -147,7 +147,7 @@
 
                         </div>
 
-                        <div class="servicios__lista-item">
+                        <div class="servicios__lista-item" data-aos="fade-left">
                             <div class="servicios__lista-header">
                                 <img src="resources/img/servicios.png" alt="Servicios" class="servicios__img">
                                 <h3 class="servicios__subtitle">Subestaciones</h3>
@@ -167,7 +167,7 @@
 
                     <div class="servicios__listas-container">
 
-                        <div class="servicios__lista-item">
+                        <div class="servicios__lista-item" data-aos="fade-right">
                             <div class="servicios__lista-header">
                                 <img src="resources/img/servicios.png" alt="Servicios" class="servicios__img">
                                 <h3 class="servicios__subtitle">Control de vegetación</h3>
@@ -181,7 +181,7 @@
 
                         </div>
 
-                        <div class="servicios__lista-item">
+                        <div class="servicios__lista-item" data-aos="fade-left">
                             <div class="servicios__lista-header">
                                 <img src="resources/img/servicios.png" alt="Servicios" class="servicios__img">
                                 <h3 class="servicios__subtitle">Obra civil</h3>
@@ -198,7 +198,7 @@
 
                     <div class="servicios__listas-container">
 
-                        <div class="servicios__lista-item">
+                        <div class="servicios__lista-item" data-aos="fade-right">
                             <div class="servicios__lista-header">
                                 <img src="resources/img/servicios.png" alt="Servicios" class="servicios__img">
                                 <h3 class="servicios__subtitle">Adicionales</h3>

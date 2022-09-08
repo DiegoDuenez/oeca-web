@@ -10,19 +10,18 @@
     <div class="nosotros__slider-container" >
         <div class="nosotros__slider">
 
-            <div class="nosotros__slider-text">
-            <span style="color: var(--color-green); font-weight: bold;">OECA</span> es una empresa de ingenieria innovadora enfocada al diseño, ejecución, puesta en marcha y O&M de
+            <div class="nosotros__slider-text animate__animated">
+            <span style="color: var(--color-green); font-weight: bold;">OECA</span> 
+            es una empresa de ingenieria innovadora enfocada al diseño, ejecución, puesta en marcha y O&M de
             proyectos relacionados con las energias renovables,
             medio ambiente y la eficiencia energetica.
-
             El equipo humano que integra la empresa es multidisciplinario, por lo tanto, existe una versatilidad en la
             gama de servicios que se ofrecen.
-
             </div>
             <div class="nosotros__slider-dots">
-                <button class="nosotros__slider-dot nosotros__slider-dot--active"></button>
-                <button class="nosotros__slider-dot"></button>
-                <button class="nosotros__slider-dot"></button>
+                <button class="nosotros__slider-dot nosotros__slider-dot--active" id="1"></button>
+                <button class="nosotros__slider-dot" id="2"></button>
+                <button class="nosotros__slider-dot" id="3"></button>
             </div>
         </div>
     </div>
@@ -33,8 +32,10 @@
             <img src="resources/img/mision.png" alt="" class="nosotros__card-img-top">
             <div class="nosotros__card">
                 <div class="nosotros__card-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, eos enim praesentium commodi soluta, 
-                    iusto consectetur explicabo in rem corporis quasi itaque dolore odit odio, voluptatum et nulla ea adipisci.
+                    Contribuir y trascender con el bienestar de los habitantes y su entorno
+                    de forma holística. Confiamos firmemente en que las fuentes alternas
+                    de energía pueden satisfacer, con un impacto ambiental menor a las
+                    convencionales, las necesidades en los hogares, comercios e industrias. 
                 </div>
             </div>
             <div class="nosotros__card-img-bottom">
@@ -46,8 +47,13 @@
             <img src="resources/img/vision.png" alt="" class="nosotros__card-img-top">
             <div class="nosotros__card">
                 <div class="nosotros__card-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, eos enim praesentium commodi soluta, 
-                    iusto consectetur explicabo in rem corporis quasi itaque dolore odit odio, voluptatum et nulla ea adipisci.
+                    Representar un entorno para trascender, donde nuestro personal se
+                    inspire y desarrolle para dar lo mejor de sí mientras formamos una red
+                    de socios exitosa, creando una lealtad mutua y recíproca. Promover
+                    nuestra cultura ambiental y crear resiliencia ante los desafíos de
+                    sustentantibilidad y energías renovables, especialmente la energía
+                    fotovoltaica; generando mayor impacto positivo en el planeta, en la
+                    sociedad en que vivimos y en los negocios de nuestros clientes. 
                 </div>
             </div>
             <div class="nosotros__card-img-bottom">
