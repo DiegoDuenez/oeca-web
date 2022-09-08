@@ -23,8 +23,20 @@
 
 }
 
+
 @media screen and (min-width: 300px) and (max-width: 800px) {
     .title{
         text-align: center;
     }
+}
+
+.title--white{
+    color: var(--color-white);
+}
+
+.title--white span{
+    font-size: var(--fs-titulo);
+    font-family: var(--ff-titulo);
+    color: var(--color-white);
+    z-index: 9999;
 }

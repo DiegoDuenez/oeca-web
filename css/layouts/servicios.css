@@ -30,7 +30,7 @@
 .servicios__content{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     padding: 2rem;
     gap: 2rem;
 }
@@ -42,7 +42,7 @@
 
 .servicios__image{
     display: flex;
-    width: 50%;
+    width: 40%;
 }
     @media screen and (min-width: 300px) and (max-width: 900px) {
         .servicios__image{
@@ -71,7 +71,7 @@
 .servicios__listas-container-gap{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
 }
 @media screen and (min-width: 300px) and (max-width: 650px) {
     .servicios__listas-container-gap{
@@ -79,10 +79,21 @@
     }
 }
 
+.servicios-hide{
+    display: none;
+    
+}
+
+.servicios-show{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
 .servicios__listas-container{
     display: flex;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 2rem;
 }
     @media screen and (min-width: 901px) and (max-width: 1310px) {
         .servicios__listas-container{

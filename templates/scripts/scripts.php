@@ -2,6 +2,7 @@
 <script src="libs/jquery/jquery.min.js"></script>
 <script src="libs/glider/glider.min.js"></script>
 <script src="libs/aos/dist/aos.js"></script>
+<script src="js/index.js"></script>
 <script>
     AOS.init();
 </script>

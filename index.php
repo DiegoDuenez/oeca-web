@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="libs/glider/glider.min.css">
     <!--====== MAINCSS ======-->
     <link rel="stylesheet" href="css/index.css">
-    <title>OECA - INGENIERÍA INNOVADORA</title>
+    <title>OECA - OPTIMIZACIÓN ENERGÉTICA Y CULTURA AMBIENTAL</title>
 </head>
 <body>
 
@@ -33,6 +33,8 @@
     <?php include 'templates/layouts/proyectos.php' ?>
 
     <?php include 'templates/layouts/servicios.php' ?>
+
+    <?php include 'templates/layouts/contacto.php' ?>
 
     
     <?php include 'templates/scripts/scripts.php' ?>

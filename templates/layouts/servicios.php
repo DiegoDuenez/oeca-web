@@ -123,10 +123,110 @@
 
                     </div>
                 </div>
+
+                <div class="servicios-hide" id="servicios-hide" >
+
+                    <div class="servicios__listas-container">
+
+                        <div class="servicios__lista-item">
+                            <div class="servicios__lista-header">
+                                <img src="resources/img/servicios.png" alt="Servicios" class="servicios__img">
+                                <h3 class="servicios__subtitle">HV/AC Cableado <br> Switchgear / RMU</h3>
+
+                            </div>
+                            <div class="servicios__lista-body">
+                                <ul>
+                                    <li><i class="fa-solid fa-circle"></i> Instalación / Sustitución de Celdas de Media Tensión</li>
+                                    <li><i class="fa-solid fa-circle"></i> Mantenimientos Preventivos a Celdas de Media Tensión</li>
+                                    <li><i class="fa-solid fa-circle"></i> Test Dieléctrico y de continuidad</li>
+                                    <li><i class="fa-solid fa-circle"></i> Termografías a cableados y terminales</li>
+                                    <li><i class="fa-solid fa-circle"></i> Detección y reparación de bajo aislamiento MV</li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="servicios__lista-item">
+                            <div class="servicios__lista-header">
+                                <img src="resources/img/servicios.png" alt="Servicios" class="servicios__img">
+                                <h3 class="servicios__subtitle">Subestaciones</h3>
+
+                            </div>
+                            <div class="servicios__lista-body">
+                                <ul>
+                                    <li><i class="fa-solid fa-circle"></i> Inspección visual</li>
+                                    <li><i class="fa-solid fa-circle"></i> Mantenimientos Preventivos y Correctivos</li>
+                                    <li><i class="fa-solid fa-circle"></i> Test de voltajes</li>
+                                    <li><i class="fa-solid fa-circle"></i> Test dieléctrico y degradación de aceite</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="servicios__listas-container">
+
+                        <div class="servicios__lista-item">
+                            <div class="servicios__lista-header">
+                                <img src="resources/img/servicios.png" alt="Servicios" class="servicios__img">
+                                <h3 class="servicios__subtitle">Control de vegetación</h3>
+
+                            </div>
+                            <div class="servicios__lista-body">
+                                <ul>
+                                    <li><i class="fa-solid fa-circle"></i> Desbroce y limpieza de Vegetación </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="servicios__lista-item">
+                            <div class="servicios__lista-header">
+                                <img src="resources/img/servicios.png" alt="Servicios" class="servicios__img">
+                                <h3 class="servicios__subtitle">Obra civil</h3>
+
+                            </div>
+                            <div class="servicios__lista-body">
+                                <ul>
+                                    <li><i class="fa-solid fa-circle"></i> Construcción de registros de MV</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="servicios__listas-container">
+
+                        <div class="servicios__lista-item">
+                            <div class="servicios__lista-header">
+                                <img src="resources/img/servicios.png" alt="Servicios" class="servicios__img">
+                                <h3 class="servicios__subtitle">Adicionales</h3>
+
+                            </div>
+                            <div class="servicios__lista-body">
+                                <ul>
+                                    <li><i class="fa-solid fa-circle"></i> Gestión y acompañamiento con sindicatos</li>
+                                    <li><i class="fa-solid fa-circle"></i> Manejo de Residuos (RSU, RME, RP)</li>
+                                    <li><i class="fa-solid fa-circle"></i> Atención contingencias ambientales</li>
+                                    <li><i class="fa-solid fa-circle"></i> Caracterización ambiental de sitios (Debida diligencia ambiental, Investigación de
+                                    suelo, Remediación ambiental)</li>
+                                    <li><i class="fa-solid fa-circle"></i> Compensación flora</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
             </div>
 
 
-            <button class="button">LEER MÁS</button>
+            <button class="button" id="btn-leer">LEER MÁS</button>
             
         </div>
         

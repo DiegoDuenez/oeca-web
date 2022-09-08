@@ -74,6 +74,7 @@
     outline: none;
     border-radius: 50%;
     cursor: pointer;
+    transition: 400ms;
 }
 
 .nosotros__slider-dot--active{
