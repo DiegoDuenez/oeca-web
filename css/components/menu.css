@@ -54,21 +54,35 @@
     position: absolute;
     right: 0.5rem;
     top: 0.5rem;
-    width: 35rem;
+    width: 30%;
 }
     @media screen and (min-width: 300px) and (max-width: 1220px) {
         .menu__image{
             display: none;
         }
     }
+/* 
+    @media screen and (min-height: 300px) and (max-height: 1400px) {
+        .menu__image{
+            width: 10rem;
+        }
+    } */
 
 .menu__links{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     width: 50%;
     gap: 2rem;
     height: fit-content;
-    margin-top: 5rem;
+    background-color: red;
+    justify-content: flex-end; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    width: 50%;
+
 }
 
     @media screen and (min-width: 300px) and (max-width: 1220px) {
@@ -83,6 +97,7 @@
     font-family: var(--ff-texto);
     text-decoration: none;
     transition: 400ms;
+
 }
 
     @media screen and (min-width: 300px) and (max-width: 1000px) {
