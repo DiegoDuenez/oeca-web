@@ -4,6 +4,7 @@
 <script src="libs/aos/dist/aos.js"></script>
 <script src="js/index.js"></script>
 <script src="js/menu.js"></script>
+<script src="js/mail.js"></script>
 
 <script>
     Menu = new Menu({options: {openAndCloseWith: '.open', size:'lg', direction: 'right'}})

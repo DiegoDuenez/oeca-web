@@ -178,7 +178,7 @@ $('.menu__link').click(function(){
             `)
             
             $('#sidebar-2-container').removeClass('sidebar--open')
-            $('#sidebar-2-container .sidebar__menu button').css('background-color', 'transparent').css('color', 'var(--color-green)').css('height', 'fit-content')
+            $('#sidebar-2-container .sidebar__menu button').css('background-color', 'white').css('color', 'var(--color-green)').css('height', '7rem')
             $('#sidebar-2-container').removeClass('sidebar--transparent')
             $('body').css('overflow','auto')
 

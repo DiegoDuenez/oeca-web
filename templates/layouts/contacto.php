@@ -5,7 +5,7 @@
 
         <img src="resources/img/contacto-fondo.png" alt="Contacto" class="contacto__image">
         
-        <form class="contacto__form">
+        <form method="post" class="contacto__form">
             <div class="contacto__input-group">
                 <label for="nombre" class="contacto__label">NOMBRE Y APELLIDO</label>
                 <input type="text" class="contacto__input" id="nombre">
@@ -13,8 +13,8 @@
 
             <div class="contacto__input-row">
                 <div class="contacto__input-group contacto__input-group--md">
-                    <label for="email" class="contacto__label">EMAIL</label>
-                    <input type="email" class="contacto__input" id="email">
+                    <label for="correo" class="contacto__label">EMAIL</label>
+                    <input type="email" class="contacto__input" id="correo">
                 </div>
                 <div class="contacto__input-group contacto__input-group--md">
                     <label for="telefono" class="contacto__label">TELÉFONO</label>
@@ -26,8 +26,9 @@
                 <label for="mensaje" class="contacto__label">MENSAJE</label>
                 <textarea name="mensaje" class="contacto__textarea" id="mensaje"></textarea>
             </div>
-
-            <button class="button">ENVIAR</button>
+            <div class="g-recaptcha" data-sitekey="6LflO-chAAAAAPrzKoI_CkWH0zQ9bA82H3Z1fUNf" style="margin-top: 2%; margin:0 auto;"></div>
+            <p style="font-family: Exo2Regular; color: white !important; text-align: center" id="status"></p>
+            <button type="button" class="button" onclick="mail()">ENVIAR</button>
         </form>
 
         <div class="contacto__informacion">

@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="libs/glider/glider.min.css">
     <!--====== MAIN CSS ======-->
     <link rel="stylesheet" href="css/index.css">
+    <!--====== GOOGLE RECAPTCHA ======-->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
     <title>OECA - OPTIMIZACIÓN ENERGÉTICA Y CULTURA AMBIENTAL</title>
 </head>
 <body>
