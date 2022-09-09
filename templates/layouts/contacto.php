@@ -13,7 +13,7 @@
 
             <div class="contacto__input-row">
                 <div class="contacto__input-group contacto__input-group--md">
-                    <label for="correo" class="contacto__label">EMAIL</label>
+                    <label for="correo" class="contacto__label">CORREO ElECTRÓNICO</label>
                     <input type="email" class="contacto__input" id="correo" autocomplete="off">
                 </div>
                 <div class="contacto__input-group contacto__input-group--md">
