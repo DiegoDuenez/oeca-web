@@ -175,6 +175,7 @@
     background-color: transparent;
     left: 1rem;
     top: -10rem;
+    height: fit-content;
 }
 .sidebar--fix .sidebar__menu button{
     display: flex;

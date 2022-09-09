@@ -83,7 +83,6 @@
     gap: 1rem;
     justify-content: center;
     width: 50%;
-
 }
 
     @media screen and (min-width: 300px) and (max-width: 1220px) {
