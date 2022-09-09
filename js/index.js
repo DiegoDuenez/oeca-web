@@ -208,7 +208,7 @@ window.addEventListener("scroll", function () {
 
    
     if (scrollTop > "900") {
-        $('#sidebar-2-container').css('top', '1rem')
+        // $('#sidebar-2-container').css('top', '1rem')
         $('#sidebar-1-container').css('display', 'none')
     }
     else {
@@ -216,5 +216,28 @@ window.addEventListener("scroll", function () {
         $('#sidebar-2-container').css('top', '-10rem')
 
     }
+
     lastScrollTop = scrollTop
 })
+
+let scroll_position = 30;
+let scroll_direction;
+
+window.addEventListener("scroll", () => {
+
+    var scrollTop = window.pageYOffset || this.document.documentElement.scrollTop
+
+  scroll_direction = document.body.getBoundingClientRect().top > scroll_position ? "up" : "down";
+  scroll_position = document.body.getBoundingClientRect().top;
+
+  if (scroll_direction === "up") {
+    $('#sidebar-2-container').css('top', '1rem')
+
+    if(scrollTop < 800){
+        $('#sidebar-2-container').css('top', '-10rem')
+    }
+
+  } else {
+    $('#sidebar-2-container').css('top', '-10rem')
+  }
+});
