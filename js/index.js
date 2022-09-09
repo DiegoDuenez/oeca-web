@@ -188,3 +188,16 @@ $('.menu__link').click(function(){
     }
   
 })
+
+
+var lastScrollTop = 0
+window.addEventListener("scroll", function () {
+    var scrollTop = window.pageYOffset || this.document.documentElement.scrollTop
+    if (scrollTop > "900") {
+        $('#sidebar-1-container').css('display', 'none')
+    }
+    else {
+        $('#sidebar-1-container').css('display', 'flex')
+    }
+    lastScrollTop = scrollTop
+})

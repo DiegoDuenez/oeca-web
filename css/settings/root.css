@@ -128,5 +128,8 @@ body>section {
 }
 
 .swal2-popup {
-    font-family: MontserratMedium !important;
+    font-family: Exo2Regular !important;
 }
+.swal2-container {
+    z-index: 999999;
+  }

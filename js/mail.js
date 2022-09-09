@@ -5,14 +5,14 @@ function mail() {
 
         const nombre = $("#nombre").val()
         const correo = $("#correo").val()
-        const asunto = $("#telefono").val()
+        const telefono = $("#telefono").val()
         const mensaje = $("textarea#mensaje").val()
 
-        if(nombre != "" && correo != "" && asunto != "" && mensaje != "" ){
+        if(nombre != "" && correo != "" && telefono != "" && mensaje != "" ){
             $.ajax({
                 url: 'app/mail.php',
                 type: 'post',
-                data: {nombre, correo, asunto, mensaje},
+                data: {nombre, correo, telefono, mensaje},
                 dataType: 'text',
                 contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
                 success: function (response) {
@@ -34,12 +34,13 @@ function mail() {
                 error: function(xhr, status, error) {
                     $("#nombre").val('')
                     $("#correo").val('')
-                    $("#asunto").val('')
+                    $("#telefono").val('')
                     $("textarea#mensaje").val('')
                     $('#status').text('')
                     console.log(xhr)
                     console.log(status)
                     console.log(error)
+
                 }
             });
         }

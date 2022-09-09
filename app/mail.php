@@ -23,6 +23,8 @@ if (empty($nombre) ||  empty($correo)  || empty($mensaje) || empty($telefono)) {
         <p>' . $nombre . '</p>
         <h3>Correo:</h3>
         <p> ' . $correo .'</p>
+        <h3>Teléfono:</h3>
+        <p>' . $telefono . '</p>
         <h3>Mensaje:</h3>
         <p>' . ucfirst($mensaje)  . '</p>
     </body>
@@ -35,10 +37,6 @@ if (empty($nombre) ||  empty($correo)  || empty($mensaje) || empty($telefono)) {
     $cabeceras .= 'From: ' . $nombre . "\r\n";
 
     $sent = mail($para, utf8_decode($titulo), utf8_decode($mensaje), $cabeceras);
-    //echo json_encode("correo enviado");
-   // echo "<script>window.location.href='../index.php'</script>";
-
-    // var_dump($jsonResponse);
     if ($jsonResponse->success === true) {
 
         $sent = mail($para, utf8_decode($titulo), utf8_decode($mensaje), $cabeceras);
