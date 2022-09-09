@@ -35,9 +35,9 @@
         }
     }
 
-    @media screen and (min-width: 401px) and (max-width: 1000px) {
+    @media screen and (min-width: 401px) and (max-width: 1030px) {
         .menu{
-            padding: 7rem 0 5rem 1rem;
+            padding: 7rem 0 5rem 3rem;
 
         }
         
