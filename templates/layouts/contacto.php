@@ -8,17 +8,17 @@
         <form method="post" class="contacto__form">
             <div class="contacto__input-group">
                 <label for="nombre" class="contacto__label">NOMBRE Y APELLIDO</label>
-                <input type="text" class="contacto__input" id="nombre">
+                <input type="text" class="contacto__input" id="nombre" autocomplete="off">
             </div>
 
             <div class="contacto__input-row">
                 <div class="contacto__input-group contacto__input-group--md">
                     <label for="correo" class="contacto__label">EMAIL</label>
-                    <input type="email" class="contacto__input" id="correo">
+                    <input type="email" class="contacto__input" id="correo" autocomplete="off">
                 </div>
                 <div class="contacto__input-group contacto__input-group--md">
                     <label for="telefono" class="contacto__label">TELÉFONO</label>
-                    <input type="number" class="contacto__input" id="telefono">
+                    <input type="number" class="contacto__input" id="telefono" autocomplete="off">
                 </div>
             </div>
 
