@@ -1,12 +1,11 @@
 
-<div class="menu">
+<div class="menu" id="menu">
 
    <div class="menu__links">
         <a href="#nosotros" class="menu__link">NOSOTROS</a>
         <a href="#proyectos" class="menu__link">PROYECTOS</a>
         <a href="#servicios" class="menu__link">SERVICIOS</a>
         <a href="#contacto" class="menu__link">CONTACTO</a>
-
    </div>
 
    <img src="resources/img/menu-logo.png" alt="OECA" class="menu__image">

@@ -1,10 +1,6 @@
-/*
-|   menu.js 2022 @DiegoDuenez
-|   ---------------------------------------------------------------------------------
-|   @Menu
-|   ---------------------------------------------------------------------------------
-|
-*/
+
+
+
 
 
 class Menu{
@@ -16,7 +12,7 @@ class Menu{
 
     init(){
 
-        var menu = document.querySelector('.menu')
+        var menu = document.querySelector('#menu')
 
         var opener = 'open--left'
         var elementOpener;

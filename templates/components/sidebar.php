@@ -8,9 +8,9 @@
 </div> -->
 
 
-<div class="sidebar sidebar--fix">
+<div class="sidebar sidebar--fix" id="sidebar-2-container">
 
-    <div class="sidebar__menu">
+    <div class="sidebar__menu " id="sidebar-menu-2">
        <button type="button" class="open">
             <i class="fa-solid fa-bars"></i>
             MENÚ
@@ -26,9 +26,9 @@
 </div>
 
 
-<div class="sidebar">
+<div class="sidebar" id="sidebar-1-container">
 
-    <div class="sidebar__menu">
+    <div class="sidebar__menu" id="sidebar-menu-1">
        <button type="button" class="open">
             <i class="fa-solid fa-bars"></i>
             MENÚ
