@@ -45,11 +45,12 @@
 
     @media screen and (min-width: 300px) and (max-width: 400px) {
         .menu{
-            padding: 7rem 1rem 5rem 1rem;
+            padding: 11rem 1rem 5rem 1rem;
 
         }
         
     }
+    
 .menu__image{
     position: absolute;
     right: 0.5rem;

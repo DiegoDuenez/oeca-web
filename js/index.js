@@ -81,10 +81,12 @@ $('#sidebar-menu-1 button').click(function(){
         `)
         $(this).css('background-color', 'white').css('color', 'var(--color-green)').css('height', '7rem')
         $('#sidebar-1-container').addClass('sidebar--open')
+        // $('#sidebar-1-container').css('width', '7rem')
         $('#sidebar-1-container .sidebar__social-media').css('display','none')
         $('#sidebar-1-container').addClass('sidebar--fix')
         $('#sidebar-1-container').addClass('sidebar--transparent')
         $('body').css('overflow','hidden')
+        $('.sidebar--fix#sidebar-1-container').css('top', '0').css('left', '0')
 
     }
     else{
@@ -94,6 +96,7 @@ $('#sidebar-menu-1 button').click(function(){
         `)
 
         $('#sidebar-1-container').removeClass('sidebar--open')
+        // $('#sidebar-1-container').addClass('sidebar--width')
         $('#sidebar-1-container .sidebar__social-media').css('display','flex')
         $(this).css('background-color', 'transparent').css('color', 'white').css('height', 'fit-content')
         $('#sidebar-1-container').removeClass('sidebar--fix')
@@ -112,11 +115,14 @@ $('#sidebar-menu-2 button').click(function(){
             <i class="fa-regular fa-circle-xmark" ></i>
             CERRAR
         `)
-        $(this).css('background-color', 'white').css('color', 'var(--color-green)').css('height', '7rem')
+
+        $(this).css('background-color', 'white').css('color', 'var(--color-green)').css('height', '7rem').css('border-radius', '0')
         $('#sidebar-2-container').addClass('sidebar--open')
         $('#sidebar-2-container').addClass('sidebar--fix')
         $('#sidebar-2-container').addClass('sidebar--transparent')
         $('body').css('overflow','hidden')
+        $('#sidebar-2-container').css('top', '0').css('left', '0')
+
 
 
     }
@@ -126,10 +132,13 @@ $('#sidebar-menu-2 button').click(function(){
             MENÚ
         `)
 
+        $(this).css('background-color', 'white').css('color', 'var(--color-green)').css('height', '7rem').css('border-radius', '50%')
         $('#sidebar-2-container').removeClass('sidebar--open')
         $(this).css('background-color', 'white').css('color', 'var(--color-green)').css('height', '7rem')
         $('#sidebar-2-container').removeClass('sidebar--transparent')
         $('body').css('overflow','auto')
+        $('#sidebar-2-container').css('top', '1rem').css('left', '1rem')
+
 
     }
     
@@ -181,6 +190,9 @@ $('.menu__link').click(function(){
             $('#sidebar-2-container .sidebar__menu button').css('background-color', 'white').css('color', 'var(--color-green)').css('height', '7rem')
             $('#sidebar-2-container').removeClass('sidebar--transparent')
             $('body').css('overflow','auto')
+            $('#sidebar-2-container').css('top', '1rem').css('left', '1rem')
+            $('#sidebar-menu-2 button').css('background-color', 'white').css('color', 'var(--color-green)').css('height', '7rem').css('border-radius', '50%')
+
 
         }
        
@@ -193,11 +205,16 @@ $('.menu__link').click(function(){
 var lastScrollTop = 0
 window.addEventListener("scroll", function () {
     var scrollTop = window.pageYOffset || this.document.documentElement.scrollTop
+
+   
     if (scrollTop > "900") {
+        $('#sidebar-2-container').css('top', '1rem')
         $('#sidebar-1-container').css('display', 'none')
     }
     else {
         $('#sidebar-1-container').css('display', 'flex')
+        $('#sidebar-2-container').css('top', '-10rem')
+
     }
     lastScrollTop = scrollTop
 })

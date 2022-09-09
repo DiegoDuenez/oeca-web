@@ -1,4 +1,4 @@
-<div class="sidebar sidebar--fix" id="sidebar-2-container">
+<div class="sidebar sidebar--fix" id="sidebar-2-container" >
 
     <div class="sidebar__menu " id="sidebar-menu-2">
        <button type="button" class="open">
