@@ -210,9 +210,12 @@ window.addEventListener("scroll", function () {
     if (scrollTop > "900") {
         // $('#sidebar-2-container').css('top', '1rem')
         $('#sidebar-1-container').css('display', 'none')
+
     }
     else {
-        $('#sidebar-1-container').css('display', 'flex')
+        if (screen.width >= 600) {
+            $('#sidebar-1-container').css('display', 'flex')
+        }
         $('#sidebar-2-container').css('top', '-10rem')
 
     }
@@ -233,7 +236,7 @@ window.addEventListener("scroll", () => {
   if (scroll_direction === "up") {
     $('#sidebar-2-container').css('top', '1rem')
 
-    if(scrollTop < 800){
+    if(scrollTop < 750){
         $('#sidebar-2-container').css('top', '-10rem')
     }
 

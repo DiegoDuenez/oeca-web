@@ -23,12 +23,13 @@
     transition: 400ms;
 }
 
-    /* @media screen and (min-width: 300px) and (max-width: 400px) {
-        .sidebar{
-            width: 3rem;
+
+    @media screen and (min-width: 300px) and (max-width: 600px) {
+        #sidebar-1-container{
+            display: none;
         }
         
-    } */
+    }
 
 .sidebar--width{
     width: 7rem;

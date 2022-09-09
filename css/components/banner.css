@@ -40,12 +40,20 @@
         
     }
 
-    @media screen and (min-width: 300px) and (max-width: 400px) {
+    /* @media screen and (min-width: 300px) and (max-width: 400px) {
         .banner__logo{
             margin-left: 8rem;
         }
         
+    } */
+    @media screen and (min-width: 300px) and (max-width: 600px) {
+        
+        .banner__logo{
+            background-color: red;
+        }
+        
     }
+
 
 
 .banner__logo img{
@@ -57,11 +65,27 @@
             width: 50%;
         }
     }
-    @media screen and (min-width: 300px) and (max-width: 400px) {
+    /* @media screen and (min-width: 300px) and (max-width: 400px) {
         .banner__logo img{
             width: 30%;
         }
+    } */
+    @media screen and (min-width: 300px) and (max-width: 600px) {
+        
+        .banner__logo img{
+            width: 70%;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            font-size: 3rem;
+            text-align: center;
+        }
+        
     }
+
+
 
 .banner__titulo{
     font-family: var(--ff-texto);
@@ -72,20 +96,33 @@
     top: 40%;
     word-break: break-all;
 }
-    @media screen and (min-width: 401px) and (max-width: 800px) {
+    @media screen and (min-width: 601px) and (max-width: 800px) {
         .banner__titulo{
             left: 10rem;
             font-size: 3rem;
         }   
     }
 
-    @media screen and (min-width: 300px) and (max-width: 400px) {
+    @media screen and (min-width: 300px) and (max-width: 600px) {
+        
+        .banner__titulo{
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            font-size: 3rem;
+            text-align: center;
+        }
+        
+    }
+
+    /* @media screen and (min-width: 300px) and (max-width: 400px) {
         .banner__titulo{
             left: 8rem;
             font-size: 3rem;
 
         }
-    }
+    } */
 
 .banner__titulo span{
     font-family: var(--ff-titulo);
