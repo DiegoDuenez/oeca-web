@@ -1,14 +1,3 @@
-<!-- <div class="sidebar sidebar--fix" id="sidebar-2-container" >
-
-    <div class="sidebar__menu " id="sidebar-menu-2">
-       <button type="button" class="open">
-            <i class="fa-solid fa-bars"></i>
-            MENÚ
-       </button>
-    </div>
-
-</div>
- -->
  
 <div class="sidebar sidebar--fixed" id="sidebar-2-container">
 
