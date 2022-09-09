@@ -221,10 +221,7 @@
 
                 </div>
 
-
-
             </div>
-
 
             <button class="button" id="btn-leer">LEER MÁS</button>
             

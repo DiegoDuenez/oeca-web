@@ -1,8 +1,4 @@
 
-
-
-
-
 class Menu{
 
     constructor(data){

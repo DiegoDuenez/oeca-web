@@ -57,7 +57,6 @@
     <!--====== SCRIPTS START ======-->
     <?php include 'templates/scripts/scripts.php' ?>
     <!--====== SCRIPTS END ======-->
-
     
 </body>
 </html>
