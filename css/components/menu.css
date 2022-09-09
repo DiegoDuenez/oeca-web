@@ -53,8 +53,8 @@
     
 .menu__image{
     position: absolute;
-    right: 0.5rem;
-    top: 0.5rem;
+    right: 10rem;
+    top: 2rem;
     width: 30%;
 }
     @media screen and (min-width: 300px) and (max-width: 1220px) {

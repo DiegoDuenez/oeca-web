@@ -75,32 +75,27 @@ const animateCSS = (element, animation, prefix = 'animate__') =>
 $('#sidebar-menu-1 button').click(function(){
 
     if($(this).text().includes('MENÚ')){
+
         $(this).html(`
             <i class="fa-regular fa-circle-xmark" ></i>
             CERRAR
         `)
-        $(this).css('background-color', 'white').css('color', 'var(--color-green)').css('height', '7rem')
+
         $('#sidebar-1-container').addClass('sidebar--open')
-        // $('#sidebar-1-container').css('width', '7rem')
-        $('#sidebar-1-container .sidebar__social-media').css('display','none')
-        $('#sidebar-1-container').addClass('sidebar--fix')
-        $('#sidebar-1-container').addClass('sidebar--transparent')
+        $(this).addClass('sidebar__menu-button--white')
+        $('#sidebar-1-container').addClass('sidebar--p-0').addClass('sidebar--pb-4')
         $('body').css('overflow','hidden')
-        $('.sidebar--fix#sidebar-1-container').css('top', '0').css('left', '0')
 
     }
     else{
+
         $(this).html(`
             <i class="fa-solid fa-bars"></i>
             MENÚ
         `)
-
         $('#sidebar-1-container').removeClass('sidebar--open')
-        // $('#sidebar-1-container').addClass('sidebar--width')
-        $('#sidebar-1-container .sidebar__social-media').css('display','flex')
-        $(this).css('background-color', 'transparent').css('color', 'white').css('height', 'fit-content')
-        $('#sidebar-1-container').removeClass('sidebar--fix')
-        $('#sidebar-1-container').removeClass('sidebar--transparent')
+        $(this).removeClass('sidebar__menu-button--white')
+        $('#sidebar-1-container').removeClass('sidebar--p-0')
         $('body').css('overflow','auto')
 
     }
@@ -111,19 +106,20 @@ $('#sidebar-menu-1 button').click(function(){
 $('#sidebar-menu-2 button').click(function(){
 
     if($(this).text().includes('MENÚ')){
+
         $(this).html(`
             <i class="fa-regular fa-circle-xmark" ></i>
             CERRAR
         `)
 
-        $(this).css('background-color', 'white').css('color', 'var(--color-green)').css('height', '7rem').css('border-radius', '0')
         $('#sidebar-2-container').addClass('sidebar--open')
-        $('#sidebar-2-container').addClass('sidebar--fix')
-        $('#sidebar-2-container').addClass('sidebar--transparent')
+
+        $(this).addClass('sidebar__menu-button--white').addClass('sidebar__menu-button--h-100')
+        $('#sidebar-2-container').addClass('sidebar--p-0')
         $('body').css('overflow','hidden')
-        $('#sidebar-2-container').css('top', '0').css('left', '0')
 
-
+        $('#sidebar-2-container .sidebar__social-media').removeClass('sidebar__social-media--d-none')
+        $('#sidebar-2-container').addClass('sidebar--h-100').addClass('sidebar--pb-4').addClass('sidebar--transparent')
 
     }
     else{
@@ -131,13 +127,13 @@ $('#sidebar-menu-2 button').click(function(){
             <i class="fa-solid fa-bars"></i>
             MENÚ
         `)
-
-        $(this).css('background-color', 'white').css('color', 'var(--color-green)').css('height', '7rem').css('border-radius', '50%')
         $('#sidebar-2-container').removeClass('sidebar--open')
-        $(this).css('background-color', 'white').css('color', 'var(--color-green)').css('height', '7rem')
-        $('#sidebar-2-container').removeClass('sidebar--transparent')
+        $(this).removeClass('sidebar__menu-button--white')
+        $('#sidebar-2-container').removeClass('sidebar--p-0')
         $('body').css('overflow','auto')
-        $('#sidebar-2-container').css('top', '1rem').css('left', '1rem')
+
+        $('#sidebar-2-container .sidebar__social-media').addClass('sidebar__social-media--d-none')
+        $('#sidebar-2-container').removeClass('sidebar--h-100').removeClass('sidebar--pb-4').removeClass('sidebar--transparent')
 
 
     }
@@ -157,41 +153,35 @@ $('.menu__link').click(function(){
     $(this).addClass('menu__link--active')
 
     if( $('.menu').hasClass('open--right')){
-        $('.menu').removeClass('open--right')
 
+        $('.menu').removeClass('open--right')
 
         if($('#sidebar-1-container').hasClass('sidebar--open')){
 
-            $('#sidebar-1-container').removeClass('sidebar--open')
-
-            $('#sidebar-1-container .sidebar__menu button').html(`
-            <i class="fa-solid fa-bars"></i>
+            $('#sidebar-menu-1 button').html(`
+                <i class="fa-solid fa-bars"></i>
                 MENÚ
             `)
-    
             $('#sidebar-1-container').removeClass('sidebar--open')
-            $('#sidebar-1-container .sidebar__social-media').css('display', 'flex')
-            $('#sidebar-1-container .sidebar__menu button').css('background-color', 'transparent').css('color', 'white').css('height', 'fit-content')
-            $('#sidebar-1-container').removeClass('sidebar--fix')
-            $('#sidebar-1-container').removeClass('sidebar--transparent')
+            $('#sidebar-menu-1 button').removeClass('sidebar__menu-button--white')
+            $('#sidebar-1-container').removeClass('sidebar--p-0')
             $('body').css('overflow','auto')
 
         }
         else if($('#sidebar-2-container').hasClass('sidebar--open')){
 
-            $('#sidebar-2-container').removeClass('sidebar--open')
 
-            $('#sidebar-2-container .sidebar__menu button').html(`
-            <i class="fa-solid fa-bars"></i>
+            $('#sidebar-menu-2 button').html(`
+                <i class="fa-solid fa-bars"></i>
                 MENÚ
             `)
-            
             $('#sidebar-2-container').removeClass('sidebar--open')
-            $('#sidebar-2-container .sidebar__menu button').css('background-color', 'white').css('color', 'var(--color-green)').css('height', '7rem')
-            $('#sidebar-2-container').removeClass('sidebar--transparent')
+            $('#sidebar-menu-2 button').removeClass('sidebar__menu-button--white')
+            $('#sidebar-2-container').removeClass('sidebar--p-0')
             $('body').css('overflow','auto')
-            $('#sidebar-2-container').css('top', '1rem').css('left', '1rem')
-            $('#sidebar-menu-2 button').css('background-color', 'white').css('color', 'var(--color-green)').css('height', '7rem').css('border-radius', '50%')
+
+            $('#sidebar-2-container .sidebar__social-media').addClass('sidebar__social-media--d-none')
+            $('#sidebar-2-container').removeClass('sidebar--h-100').removeClass('sidebar--pb-4').removeClass('sidebar--transparent')
 
 
         }
@@ -207,19 +197,11 @@ window.addEventListener("scroll", function () {
     var scrollTop = window.pageYOffset || this.document.documentElement.scrollTop
 
    
-    if (scrollTop > "900") {
-        // $('#sidebar-2-container').css('top', '1rem')
-        $('#sidebar-1-container').css('display', 'none')
-
+    if (scrollTop > "500") {
     }
-    else {
-        if (screen.width >= 600) {
-            $('#sidebar-1-container').css('display', 'flex')
-        }
-        $('#sidebar-2-container').css('top', '-10rem')
-
+    else if(scrollTop < "10"){
+        
     }
-
     lastScrollTop = scrollTop
 })
 
@@ -233,14 +215,14 @@ window.addEventListener("scroll", () => {
   scroll_direction = document.body.getBoundingClientRect().top > scroll_position ? "up" : "down";
   scroll_position = document.body.getBoundingClientRect().top;
 
-  if (scroll_direction === "up") {
-    $('#sidebar-2-container').css('top', '1rem')
+//   if (scroll_direction === "up") {
+//     $('#sidebar-2-container').css('top', '1rem')
 
-    if(scrollTop < 750){
-        $('#sidebar-2-container').css('top', '-10rem')
-    }
+//     if(scrollTop < 750){
+//         $('#sidebar-2-container').css('top', '-10rem')
+//     }
 
-  } else {
-    $('#sidebar-2-container').css('top', '-10rem')
-  }
+//   } else {
+//     $('#sidebar-2-container').css('top', '-10rem')
+//   }
 });

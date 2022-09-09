@@ -1,14 +1,3 @@
-/*
-|   ---------------------------------------------------------------------------------
-|   @Components (Sidebar)
-|   ---------------------------------------------------------------------------------
-|   
-|   In this folder you create all components (one file per component) that you will need like navs, buttons, etc...
-|   This components don't belong to a specific page, view, container, etc... of your project,
-|   are used globally. 
-|
-*/
-
 
 .sidebar{
     display: flex;
@@ -21,35 +10,55 @@
     position: absolute;
     z-index: 99999;
     transition: 400ms;
+    right: 0;
 }
 
-
     @media screen and (min-width: 300px) and (max-width: 600px) {
-        #sidebar-1-container{
+        .sidebar{
+            /* height: max-content;
+            padding: 0.5rem;
+            position: fixed;
+            right: 1rem;
+            width: 4rem; */
             display: none;
         }
         
     }
 
-.sidebar--width{
-    width: 7rem;
-}
+    .sidebar--fixed{
+        height: max-content;
+        padding: 0;
+        position: fixed;
+        right: 1rem;
+        width: 6rem;
+    }
 
-    @media screen and (min-width: 300px) and (max-width: 400px) {
-        .sidebar--width{
-            width: 3rem;
+    @media screen and (min-width: 300px) and (max-width: 600px) {
+        .sidebar--fixed{
+            display: flex;
+            justify-content: initial;
+            gap: 2rem;
+
         }
         
     }
 
-.sidebar--open{
-    padding: 0;
+.sidebar--p-0{
+    padding: 0 !important ;
 }
 
+.sidebar--pb-4{
+    padding-bottom: 4rem !important;
+}
+
+.sidebar--h-100{
+    height: 100%;
+}
 
 .sidebar--transparent{
     background-color: transparent;
 }
+
 
 .sidebar__menu{
     display: flex;
@@ -59,7 +68,7 @@
     height: fit-content;
 }
 
-.sidebar__menu button{
+.sidebar__menu .sidebar__menu-button{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,82 +81,27 @@
     border: none;
     outline: none;
     cursor: pointer;
-}
-
-    /* @media screen and (min-width: 300px) and (max-width: 400px) {
-        .sidebar__menu button{
-            font-size: 1rem;
-        }
-        
-    } */
-
-.sidebar__menu i{
-    font-size: 2.5rem;
-    cursor: pointer;
-}
-
-    /* @media screen and (min-width: 300px) and (max-width: 400px) {
-        .sidebar__menu i{
-            font-size: 1.5rem;
-        }
-        
-    } */
-
-
-.sidebar__menu--fix{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    height: fit-content;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 99999;
-}
-
-.sidebar__menu--top-3{
-    top: 3rem;
-    left: 3rem;
-}
-
-
-.sidebar__menu--fix button{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    font-family: var(--ff-texto);
-    color: var(--color-green);
-    gap: 0.5rem;
-    background-color: transparent;
-    width: 100%;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-
-#sidebar-menu-2 button{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    font-family: var(--ff-texto);
-    color: var(--color-green);
-    gap: 0.5rem;
-    background-color: white;
-    width: 100%;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    height: 7rem;
-    border-radius: 50%;
+    padding: 1rem 0  !important ;
     transition: 400ms;
 
 }
+    @media screen and (min-width: 300px) and (max-width: 600px) {
+        .sidebar__menu button{
+            
+        }
+        
+    }
 
+.sidebar__menu-button--white{
+    background-color: white !important;
+    color: var(--color-green) !important;
+}
 
-.sidebar__menu--fix i{
+.sidebar__menu-button--h-100{
+    height: 100%;
+}
+
+.sidebar__menu .sidebar__menu-button i{
     font-size: 2.5rem;
     cursor: pointer;
 }
@@ -161,42 +115,20 @@
     gap: 1rem;
     color: var(--color-white);
 }
+    @media screen and (min-width: 300px) and (max-width: 600px) {
+        #sidebar-1-container .sidebar__social-media{
+            display: none;
+        }
+        
+    }
+
+.sidebar__social-media--d-none{
+    display: none;
+}
 
 .sidebar__social-media a{
     color: var(--color-white);
     text-decoration: none;
     font-size: 1.5rem;
     transition: 400ms;
-}
-
-
-.sidebar--fix{
-    position: fixed !important;
-    background-color: transparent;
-    left: 1rem;
-    top: -10rem;
-    height: fit-content;
-}
-.sidebar--fix .sidebar__menu button{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    font-family: var(--ff-texto);
-    color: var(--color-green);
-    gap: 0.5rem;
-    background-color: transparent;
-    width: 100%;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-
-.sidebar--fix .sidebar__social-media {
-   display: none;
-}
-
-#sidebar-2-container {
-    padding: 0;
-
 }

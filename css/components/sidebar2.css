@@ -1,0 +1,210 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Components (Sidebar)
+|   ---------------------------------------------------------------------------------
+|   
+|   In this folder you create all components (one file per component) that you will need like navs, buttons, etc...
+|   This components don't belong to a specific page, view, container, etc... of your project,
+|   are used globally. 
+|
+*/
+
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 7rem;
+    background-color: var(--color-green);
+    justify-content: space-between;
+    padding: 4rem 0 4rem 0;
+    position: absolute;
+    z-index: 99999;
+    transition: 400ms;
+}
+
+
+    @media screen and (min-width: 300px) and (max-width: 600px) {
+        #sidebar-1-container{
+            height: 10%;
+            justify-content: center;
+            align-self: center;
+        }
+        
+    }
+
+.sidebar--width{
+    width: 7rem;
+}
+
+    @media screen and (min-width: 300px) and (max-width: 400px) {
+        .sidebar--width{
+            width: 3rem;
+        }
+        
+    }
+
+.sidebar--open{
+    padding: 0;
+}
+
+
+.sidebar--transparent{
+    background-color: transparent;
+}
+
+.sidebar__menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: fit-content;
+}
+
+.sidebar__menu button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-family: var(--ff-texto);
+    color: var(--color-white);
+    gap: 0.5rem;
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+    /* @media screen and (min-width: 300px) and (max-width: 400px) {
+        .sidebar__menu button{
+            font-size: 1rem;
+        }
+        
+    } */
+
+.sidebar__menu i{
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+    /* @media screen and (min-width: 300px) and (max-width: 400px) {
+        .sidebar__menu i{
+            font-size: 1.5rem;
+        }
+        
+    } */
+
+
+.sidebar__menu--fix{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: fit-content;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+.sidebar__menu--top-3{
+    top: 3rem;
+    left: 3rem;
+}
+
+
+.sidebar__menu--fix button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-family: var(--ff-texto);
+    color: var(--color-green);
+    gap: 0.5rem;
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#sidebar-menu-2 button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-family: var(--ff-texto);
+    color: var(--color-green);
+    gap: 0.5rem;
+    background-color: white;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 7rem;
+    border-radius: 50%;
+    transition: 400ms;
+
+}
+
+
+.sidebar__menu--fix i{
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+
+.sidebar__social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: var(--color-white);
+}
+    @media screen and (min-width: 300px) and (max-width: 600px) {
+        #sidebar-1-container .sidebar__social-media{
+            display: none;
+        }
+        
+    }
+
+.sidebar__social-media a{
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: 400ms;
+}
+
+
+.sidebar--fix{
+    position: fixed !important;
+    background-color: transparent;
+    left: 1rem;
+    top: -10rem;
+    height: fit-content;
+}
+.sidebar--fix .sidebar__menu button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-family: var(--ff-texto);
+    color: var(--color-green);
+    gap: 0.5rem;
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.sidebar--fix .sidebar__social-media {
+   display: none;
+}
+
+#sidebar-2-container {
+    padding: 0;
+
+}
