@@ -1,3 +1,11 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Components (Sidebar)
+|   ---------------------------------------------------------------------------------
+|   
+*/
+
+
 
 .sidebar{
     display: flex;
@@ -15,11 +23,6 @@
 
     @media screen and (min-width: 300px) and (max-width: 600px) {
         .sidebar{
-            /* height: max-content;
-            padding: 0.5rem;
-            position: fixed;
-            right: 1rem;
-            width: 4rem; */
             display: none;
         }
         

@@ -8,6 +8,8 @@
 |
 */
 
+
+
 .nosotros{
     display: flex;
     flex-direction: column;
@@ -18,18 +20,17 @@
     background-size: cover;
     position: relative;
 }
-
     @media screen and (min-width: 701px) and (max-width: 800px) {
         .nosotros{
             padding: 5rem 5rem;
         }
     }
-
     @media screen and (min-width: 300px) and (max-width: 700px) {
         .nosotros{
             padding: 5rem 2rem;
         }
     }
+
 
 .nosotros__slider-container{
     display: flex;
@@ -106,6 +107,7 @@
         }
     }
 
+
 .nosotros__card-container{
     display: flex;
     width: max-content;
@@ -117,6 +119,7 @@
             max-width: 100%;
         }
     }
+
 
 .nosotros__card{
     display: flex;
@@ -137,6 +140,7 @@
             max-width: 100%;
         }
     }
+
 
 .nosotros__card-text{
     font-family: var(--ff-texto);
@@ -170,11 +174,9 @@
     align-items: center;
     color: var(--color-white);
     font-size: 3rem;
-
     background: rgb(28,193,126);
-background: linear-gradient(180deg, rgba(28,193,126,1) 40%, rgba(11,162,74,1) 70%);
+    background: linear-gradient(180deg, rgba(28,193,126,1) 40%, rgba(11,162,74,1) 70%);
 }
-
 
 .nosotros__image{
     position: absolute;
@@ -183,7 +185,6 @@ background: linear-gradient(180deg, rgba(28,193,126,1) 40%, rgba(11,162,74,1) 70
     top: 2rem;
     z-index: 0;
 }
-
     @media screen and (min-width: 300px) and (max-width: 1400px) {
         .nosotros__image{
             top: 20rem;

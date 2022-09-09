@@ -6,6 +6,7 @@
 */
 
 
+
 .title{
     font-family: var(--ff-titulo);
     font-size: var(--fs-titulo-sm);
@@ -15,19 +16,18 @@
     word-wrap: break-word;
 }
 
+    @media screen and (min-width: 300px) and (max-width: 800px) {
+        .title{
+            text-align: center;
+        }
+    }
+    
 .title span{
     font-size: var(--fs-titulo);
     font-family: var(--ff-titulo);
     color: var(--color-green);
     z-index: 9999;
 
-}
-
-
-@media screen and (min-width: 300px) and (max-width: 800px) {
-    .title{
-        text-align: center;
-    }
 }
 
 .title--white{
