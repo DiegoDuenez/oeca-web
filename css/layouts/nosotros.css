@@ -111,6 +111,12 @@
     width: max-content;
     position: relative;
 }
+    @media screen and (min-width: 300px) and (max-width: 640px) {
+        .nosotros__card-container{
+            width: 100%;
+            max-width: 100%;
+        }
+    }
 
 .nosotros__card{
     display: flex;

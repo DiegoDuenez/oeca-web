@@ -16,26 +16,58 @@
     padding-top: 2rem;
     flex-direction: column;
 }
+    
+.cuadro{
+    height: 100%;
+    width: 10rem;
+    background-color: green;
+}
 
 .banner__logo{
     width: 100%;
     display: flex;
-    justify-content: center;
-    height: fit-content;
+    justify-content: flex-end;
+    height: 10rem;
+    width: max-content;
+    margin-left: 10rem;
 }
+
+    @media screen and (min-width: 300px) and (max-width: 800px) {
+        .banner__logo{
+            justify-content: flex-end;
+            
+        }
+        
+    }
+
 
 .banner__logo img{
     width: 70%;
 }
 
+    @media screen and (min-width: 300px) and (max-width: 800px) {
+        .banner__logo img{
+            width: 50%;
+        }
+        
+    }
+
 .banner__titulo{
     font-family: var(--ff-texto);
     font-size: var(--fs-titulo-lg);
     position: absolute;
-    left: 15rem;
+    left: 10rem;
     color: var(--color-black);
     top: 40%;
+    word-break: break-all;
 }
+    @media screen and (min-width: 300px) and (max-width: 800px) {
+        .banner__titulo{
+            left: 10rem;
+            font-size: 3rem;
+        }
+        
+    }
 
 .banner__titulo span{
     font-family: var(--ff-titulo);
