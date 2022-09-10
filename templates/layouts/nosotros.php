@@ -12,9 +12,9 @@
 
             <div class="nosotros__slider-text animate__animated">
             <span style="color: var(--color-green); font-weight: bold;">OECA</span> 
-            es una empresa de ingenieria innovadora enfocada al diseño, ejecución, puesta en marcha y O&M de
-            proyectos relacionados con las energias renovables,
-            medio ambiente y la eficiencia energetica.
+            es una empresa de ingeniería innovadora enfocada al diseño, ejecución, puesta en marcha y O&M de
+            proyectos relacionados con las energías renovables,
+            medio ambiente y la eficiencia energética.
             El equipo humano que integra la empresa es multidisciplinario, por lo tanto, existe una versatilidad en la
             gama de servicios que se ofrecen.
             </div>
