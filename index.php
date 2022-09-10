@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+     <!--===== REQUIRED METATAGS =====-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="OECA es una empresa de ingenieria innovadora enfocada al diseño, ejecución, puesta en marcha y O&M de
+    proyectos relacionados con las energias renovables,
+    medio ambiente y la eficiencia energetica.">
+    <title>OECA - OPTIMIZACIÓN ENERGÉTICA Y CULTURA AMBIENTAL</title>
     <!--===== FAVICON =====-->
     <link rel="apple-touch-icon" sizes="152x152" href="resources/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="resources/favicon/favicon-32x32.png">
@@ -22,7 +27,6 @@
     <link rel="stylesheet" href="css/index.css">
     <!--====== GOOGLE RECAPTCHA ======-->
     <script src="https://www.google.com/recaptcha/api.js"></script>
-    <title>OECA - OPTIMIZACIÓN ENERGÉTICA Y CULTURA AMBIENTAL</title>
 </head>
 <body>
 
