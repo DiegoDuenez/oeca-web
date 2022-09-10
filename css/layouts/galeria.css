@@ -1,0 +1,110 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Layouts (Contacto)
+|   ---------------------------------------------------------------------------------
+|
+*/
+
+
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 5rem;
+    width: 100%;
+    background-image: url('../../resources/img/fondo1.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+    gap: 2rem;
+}
+    @media screen and (min-width: 300px) and (max-width: 700px) {
+        .galeria{
+            padding: 5rem 2rem;
+        }
+    }
+
+
+.galeria__container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.galeria__row{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    gap: 0.5rem;
+}
+    @media screen and (min-width: 300px) and (max-width: 700px) {
+        .galeria__row{
+            flex-direction: column
+        }
+    }
+
+
+.galeria__col{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 0.5rem;
+}
+    @media screen and (min-width: 300px) and (max-width: 700px) {
+        .galeria__col{
+            width: 100%;
+        }
+    }
+
+
+.galeria__img{
+    display: flex;
+    width: 33.3%;
+    height: 25rem;
+    transition: 400ms;
+}
+    @media screen and (min-width: 300px) and (max-width: 700px) {
+        .galeria__img{
+            width: 100% !important;
+        }
+    }
+
+
+.galeria__img--w-40{
+    width: 40%;
+}
+
+.galeria__img--w-50{
+    width: 50%;
+}
+
+.galeria__img--w-60{
+    width: 60%;
+}
+
+.galeria__img--w-70{
+    width: 70%;
+}
+
+.galeria__img--w-100{
+    width: 100%;
+}
+
+.galeria__img--h-100{
+    height: 100%;
+}
+
+.galeria__img-body{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.galeria__img-body img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

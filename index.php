@@ -50,6 +50,10 @@
     <?php include 'templates/layouts/servicios.php' ?>
     <!--====== SERVICIOS END ======-->
 
+     <!--====== GALERIA START ======-->
+     <?php include 'templates/layouts/galeria.php' ?>
+    <!--====== GALERIA END ======-->
+
     <!--====== CONTACTO START ======-->
     <?php include 'templates/layouts/contacto.php' ?>
     <!--====== CONTACTO END ======-->

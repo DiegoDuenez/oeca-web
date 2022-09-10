@@ -5,6 +5,7 @@
         <a href="#nosotros" class="menu__link">NOSOTROS</a>
         <a href="#proyectos" class="menu__link">PROYECTOS</a>
         <a href="#servicios" class="menu__link">SERVICIOS</a>
+        <a href="#galeria" class="menu__link">GALERIA</a>
         <a href="#contacto" class="menu__link">CONTACTO</a>
    </div>
 

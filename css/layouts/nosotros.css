@@ -74,7 +74,7 @@
 }
 
 .nosotros__slider-dot{
-    background-color: var(--color-light);
+    background-color: var(--color-gray);
     width: 1rem;
     height: 1rem;
     border: none;
