@@ -131,7 +131,6 @@
             width: 100%;
         }
     }
-
     @media screen and (min-width: 300px) and (max-width: 650px) {
         .servicios__lista-item{
             width: 100%;
