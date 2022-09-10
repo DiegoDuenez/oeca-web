@@ -11,7 +11,7 @@
     position: relative;
     width: 100%;
     height: 100%;
-    background: url('../../resources/img/banner.png') no-repeat center center scroll;
+    background: url('../../resources/img/banner2.jpg') no-repeat center center scroll;
     background-size: cover;
     overflow: hidden;
     display: flex;
@@ -64,7 +64,7 @@
     font-size: var(--fs-titulo-lg);
     position: absolute;
     left: 10rem;
-    color: var(--color-black);
+    color: var(--color-white);
     top: 40%;
     word-break: break-all;
 }
@@ -90,5 +90,5 @@
 
 .banner__titulo span{
     font-family: var(--ff-titulo);
-    color: var(--color-green);
+    color: var(--color-white);
 }

@@ -4,7 +4,7 @@
     <div class="servicios__row">
 
         <div class="servicios__image">
-            <img src="resources/img/6.png" alt="Servicios y experiencia en pv">
+            <img src="resources/img/6.jpg" alt="Servicios y experiencia en pv" loading="lazy">
         </div>
 
         <div class="servicios__content">

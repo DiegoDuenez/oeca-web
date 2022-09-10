@@ -5,7 +5,7 @@
     </div>
 
 
-    <img src="resources/img/img1.png" alt="Nosotros" class="nosotros__image">
+    <img src="resources/img/nosotros.png" alt="Nosotros" class="nosotros__image">
 
     <div class="nosotros__slider-container" >
         <div class="nosotros__slider">

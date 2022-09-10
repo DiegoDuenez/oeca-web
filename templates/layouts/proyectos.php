@@ -61,7 +61,7 @@
 
             <div class="proyectos__card" >
                 <div class="proyectos__card-body">
-                    <img src="resources/img/1.png" alt="Industria agrícola">
+                    <img src="resources/img/1.jpg" alt="Industria agrícola" loading="lazy" >
                     <div class="proyectos__card-mask">
                         <ul>
                             <li><i class="fa-solid fa-circle"></i> Actividades de obra civil.</li>
@@ -75,7 +75,7 @@
 
             <div class="proyectos__card">
                 <div class="proyectos__card-body">
-                    <img src="resources/img/2.png" alt="Industria de la construcción">
+                    <img src="resources/img/2.jpg" alt="Industria de la construcción" loading="lazy">
                     <div class="proyectos__card-mask">
                         <ul>
                             <li><i class="fa-solid fa-circle"></i> Operación y mantenimiento de paneles solares.</li>
@@ -88,7 +88,7 @@
 
             <div class="proyectos__card">
                 <div class="proyectos__card-body">
-                    <img src="resources/img/3.png" alt="Industria de la minería y extracción">
+                    <img src="resources/img/3.jpg" alt="Industria de la minería y extracción" loading="lazy">
                     <div class="proyectos__card-mask">
                         <ul>
                             <li><i class="fa-solid fa-circle"></i> Montaje de equipos e instalación de proyectos de baja, media y alta tensión.</li>
