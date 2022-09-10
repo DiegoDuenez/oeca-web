@@ -15,12 +15,12 @@
     z-index: 9999;
     word-wrap: break-word;
 }
-
     @media screen and (min-width: 300px) and (max-width: 800px) {
         .title{
             text-align: center;
         }
     }
+
     
 .title span{
     font-size: var(--fs-titulo);
@@ -40,3 +40,13 @@
     color: var(--color-white);
     z-index: 9999;
 }
+
+    @media screen and (min-width: 300px) and (max-width: 500px) {
+        .title--responsive{
+            font-size: 2rem !important;
+        }
+
+        .title--responsive span{
+            font-size: 2rem !important;
+        }
+    }

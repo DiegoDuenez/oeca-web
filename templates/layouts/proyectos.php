@@ -110,7 +110,7 @@
     
     <div class="proyectos__header">
         <div class="proyectos__title proyectos__title--lg">
-            <h2 class="title">PROYECTOS <br><span>RESIDENCIALES, COMERCIALES <br> E INDUSTRIALES</span></h2>
+            <h2 class="title title--responsive">PROYECTOS <br><span>RESIDENCIALES, COMERCIALES <br> E INDUSTRIALES</span></h2>
         </div>
     </div>
 

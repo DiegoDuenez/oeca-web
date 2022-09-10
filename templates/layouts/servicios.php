@@ -124,7 +124,6 @@
                     </div>
                 </div>
 
-                <div class="servicios-hide" id="servicios-hide" >
 
                     <div class="servicios__listas-container">
 
@@ -219,15 +218,10 @@
 
                     </div>
 
-                </div>
-
             </div>
-
-            <button class="button" id="btn-leer">LEER MÁS</button>
             
         </div>
         
     </div>
-    
 
 </div>
