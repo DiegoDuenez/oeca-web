@@ -19,7 +19,7 @@
     <div class="proyectos__items">
         <div class="proyectos__item" data-aos="zoom-in">
             <div class="proyectos__item-icon">
-                <img src="resources/img/diseño-icono.png" alt="Diseño">
+                <img src="resources/img/diseno.png" alt="Diseño">
             </div>
             <div class="proyectos__item-text">
                 DISEÑO
