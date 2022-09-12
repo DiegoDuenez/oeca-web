@@ -9,7 +9,7 @@
     </div>
 
     <div class="sidebar__social-media sidebar__social-media--d-none" >
-        <a href="#" title="Facebook" class="up" target="blank"><i class="fa-brands fa-facebook"></i></a> 
+        <a href="#" title="Facebook" class="up" target="blank"  style="display: none;"><i class="fa-brands fa-facebook"></i></a> 
         <a href="https://www.instagram.com/oeca_mx/?hl=en" title="Instagram" class="up" target="blank"><i class="fa-brands fa-instagram"></i></a> 
         <a href="https://api.whatsapp.com/send?phone=8717686693" target="blank" title="WhatsApp" class="up"><i class="fa-brands fa-whatsapp"></i></a> 
         <a href="mailto:proyectos@oeca.mx" title="Correo" class="up"><i class="fa-regular fa-envelope"></i></a> 
@@ -27,7 +27,7 @@
     </div>
 
     <div class="sidebar__social-media">
-        <a href="#" title="Facebook" class="up" target="blank"><i class="fa-brands fa-facebook"></i></a> 
+        <a href="#" title="Facebook" class="up" target="blank" style="display: none;"><i class="fa-brands fa-facebook"></i></a> 
         <a href="https://www.instagram.com/oeca_mx/?hl=en" title="Instagram" class="up" target="blank"><i class="fa-brands fa-instagram"></i></a> 
         <a href="https://api.whatsapp.com/send?phone=8717686693" target="blank" title="WhatsApp" class="up"><i class="fa-brands fa-whatsapp"></i></a> 
         <a href="mailto:proyectos@oeca.mx" title="Correo" class="up"><i class="fa-regular fa-envelope"></i></a> 
