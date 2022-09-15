@@ -55,7 +55,7 @@
     <!--====== SERVICIOS END ======-->
 
      <!--====== GALERIA START ======-->
-     <?php include 'templates/layouts/galeria.php' ?>
+     <!-- <?php include 'templates/layouts/galeria.php' ?> -->
     <!--====== GALERIA END ======-->
 
     <!--====== CONTACTO START ======-->
