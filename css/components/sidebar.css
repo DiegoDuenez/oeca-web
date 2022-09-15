@@ -25,6 +25,10 @@
         .sidebar{
             display: none;
         }
+
+        #sidebar-1-container{
+            display: none !important;
+        }
         
     }
 

@@ -201,9 +201,11 @@ window.addEventListener("scroll", function () {
         $('#sidebar-1-container').css('display','none')
     }
     else {
-        if(this.screen.width > 600){
-            $('#sidebar-1-container').css('display','flex')
-        }
+        // if(this.screen.width > 600){
+        //     $('#sidebar-1-container').css('display','flex')
+        // }
+        $('#sidebar-1-container').css('display','flex')
+
     }
     lastScrollTop = scrollTop
 })
