@@ -197,11 +197,13 @@ window.addEventListener("scroll", function () {
     var scrollTop = window.pageYOffset || this.document.documentElement.scrollTop
 
    
-    if (scrollTop > "900") {
+    if (scrollTop > "900" ) {
         $('#sidebar-1-container').css('display','none')
     }
-    else{
-        $('#sidebar-1-container').css('display','flex')
+    else {
+        if(this.screen.width > 600){
+            $('#sidebar-1-container').css('display','flex')
+        }
     }
     lastScrollTop = scrollTop
 })
